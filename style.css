@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(140, 117, 225);
+    user-select: none;
+}
+
+.container {
+    background-color: aliceblue;
+    height: 75vh;
+    width: 25vw;
+    min-width: 300px;
+    min-height: 400px;
+    max-width: 500px;
+    max-height: 700px;
+    padding: 2%;
+    border-radius: 10px;
+    max-height: 500px;
+}
+
+.img {
+    width: 100%;
+    border: 2px rgb(62, 62, 62) dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.size {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    column-gap: 10px;
+}
+
+.size input {
+    /* max-width: 50px; */
+    height: 35px;
+    width: 100px;
+    margin: 10px 0;
+}
+
+.column {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.download {
+    width: 100%;
+    margin: 25px 0;
+    height: 35px;
+    color: white;
+    background-color: rgb(140, 117, 225);
+    border: 0;
+    align-self: flex-end;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: box-shadow .3s ease-in;
+}
+
+.download:hover {
+    box-shadow: 0 0 5px 10px rgba(140, 117, 225, .8);
+}
